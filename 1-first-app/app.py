@@ -21,13 +21,13 @@ df = pd.DataFrame({
 # HEADER
 
 # Title of our app
-<<<<<<< HEAD
+
 st.title('Meine erste App')
 # Add header
 st.header('Mein header')
 # Add a gif from https://giphy.com/
 st.markdown("![alt text](https://media.giphy.com/media/Yw0ZpX6d3sQnxsjaQx/giphy.gif)")
-=======
+
 st.title("Meine erste App")
 # Add header
 st.header("Mein Header")
@@ -35,7 +35,7 @@ st.header("Mein Header")
 #st.markdown("![Katze](https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif)")
 
 #st.image('hdm-logo.jpg')
->>>>>>> a70e5471c04b44eff4ca69dd654f091c702a28c8
+#>>>>>>> a70e5471c04b44eff4ca69dd654f091c702a28c8
 
 #st.image('hdm-logo.jpg')
 #-------------------
@@ -49,7 +49,7 @@ st.dataframe(df)
 #-------------------
 # Bar chart
 st.bar_chart(df)
-<<<<<<< HEAD
+#<<<<<<< HEAD
 
 #-------------------
 # SIDEBAR
@@ -67,7 +67,6 @@ d = st.date_input(
     "When is your birthday?",
     datetime.date(2019, 7, 6))
 st.write('Your Birthday is:',d)
-=======
 
 #-------------------
 
@@ -90,4 +89,4 @@ d = st.sidebar.date_input(
      "When's your birthday",
      datetime.date(2019, 7, 6))
 st.write('Your birthday is:', d)
->>>>>>> a70e5471c04b44eff4ca69dd654f091c702a28c8
+#>>>>>>> a70e5471c04b44eff4ca69dd654f091c702a28c8
